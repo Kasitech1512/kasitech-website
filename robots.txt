@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kasitech-website.pages.dev/sitemap.xml
+Sitemap: https://kasitech.com.au/sitemap.xml
