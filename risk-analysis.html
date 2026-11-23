@@ -1,104 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Performance Risk Analysis | Kasitech (AUS) Pty Ltd</title>
-
-<meta name="description" content="Identify performance risks, production bottlenecks and scalability concerns before business impact occurs.">
-
-<meta name="keywords" content="Performance Risk Analysis, Bottleneck Analysis, Capacity Planning, Scalability">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-<style>
-body {
-    margin: 0;
-    font-family: 'Poppins';
-}
-
-/* NAV */
-nav {
-    background: #0a192f;
-    padding: 10px 30px;
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    color: white;
-}
-
-nav a {
-    color: white;
-    margin-left: auto;
-    text-decoration: none;
-}
-
-/* CONTENT */
-.container {
-    padding: 80px 20px;
-    text-align: center;
-}
-</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Performance Risk Analysis | Kasitech</title>
+<meta name="description" content="Identify performance bottlenecks, capacity concerns and system dependencies before they affect production.">
+<meta name="theme-color" content="#9be8d4">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="performance-services.css">
 </head>
-
 <body>
-
-<!-- NAV -->
-<nav>
-
-<div class="logo">
-<svg width="50" height="50" viewBox="0 0 100 100">
-<path d="M10 60 Q30 30, 50 60 T90 60"
-stroke="#64ffda"
-stroke-width="3"
-fill="none"/>
-<text x="20" y="55" font-size="28" fill="white">KS</text>
-</svg>
-<span style="margin-left:10px;">Kasitech</span>
-</div>
-
-<a href="index.html">Home</a>
-
-</nav>
-
-<!-- PAGE CONTENT -->
-<div class="container">
-  <h1>Performance Risk Analysis</h1>
-
-  <p>
-    We proactively identify performance risks and potential system failures
-    before they impact production, ensuring your applications are stable
-    under real-world conditions.
-  </p>
-
-  <h2>What We Offer</h2>
-  <ul>
-    <li>✔ Identification of performance bottlenecks</li>
-    <li>✔ Analysis of system dependencies and failure points</li>
-    <li>✔ Risk assessment for production environments</li>
-    <li>✔ Workload modelling and scenario analysis</li>
-  </ul>
-
-  <h2>Approach</h2>
-  <p>
-    Our data-driven methodology combines system analysis, monitoring insights,
-    and testing results to uncover hidden risks and validate system behaviour.
-  </p>
-
-  <h2>Business Benefits</h2>
-  <p>
-    By identifying issues early, we help reduce production incidents,
-    improve system stability, and protect business reputation.
-  </p>
-</div>
-
-<footer style="background:#0a192f; color:white; text-align:center; padding:20px;">
-  <p>© 2022-2026 Kasitech (AUS) Pty Ltd</p>
-  <p>ACN: 661 777 297</p>
-  <p>Schofields, NSW, Australia</p>
-</footer>
-
+<header class="service-header">
+    <nav class="service-nav service-shell" aria-label="Main navigation">
+        <a class="service-brand" href="index.html" aria-label="Kasitech home"><span class="service-brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><text x="20" y="27" text-anchor="middle" fill="currentColor" font-family="Space Grotesk, sans-serif" font-size="17" font-weight="700" letter-spacing="-1.5">KS</text></svg></span>kasitech</a>
+        <div class="service-nav-links"><a href="index.html">Home</a><a href="performance.html">Performance services</a></div>
+        <a class="service-button" href="index.html?product=Performance%20engineering#contact">Let's talk</a>
+    </nav>
+</header>
+<main>
+    <section class="service-hero">
+        <div class="service-shell service-hero-grid">
+            <div class="service-hero-copy">
+                <span class="service-eyebrow">Performance risk analysis · 04 of 05</span>
+                <h1>Surface performance risks <span>before production.</span></h1>
+                <p>Get a clearer view of where performance may fail under real-world conditions. We assess workloads, system dependencies and available evidence to help teams prioritise the right mitigations.</p>
+                <div class="service-actions">
+                    <a class="service-button" href="index.html?product=Performance%20engineering#contact">Discuss a risk review
+                        <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                    <a class="service-button service-button-secondary" href="performance.html">All performance services</a>
+                </div>
+            </div>
+            <aside class="glass-panel service-focus" aria-label="Performance risk analysis focus">
+                <div class="service-focus-heading"><span>Risk review focus</span><strong>04 / 05</strong></div>
+                <div class="focus-grid">
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="m3 14 4-4 3 2 7-8m0 0h-4m4 0v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Bottlenecks</strong><small>Identify constraints on key journeys.</small></span></div>
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="5" cy="10" r="2" stroke="currentColor" stroke-width="1.6"/><circle cx="15" cy="5" r="2" stroke="currentColor" stroke-width="1.6"/><circle cx="15" cy="15" r="2" stroke="currentColor" stroke-width="1.6"/><path d="m7 9 6-3m-6 5 6 3" stroke="currentColor" stroke-width="1.6"/></svg></span><span><strong>Dependencies</strong><small>Review service and infrastructure links.</small></span></div>
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="M3 15V9m5 6V5m5 10v-4m4 4V3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span><span><strong>Capacity</strong><small>Assess demand and scaling assumptions.</small></span></div>
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="M10 3 3 16h14L10 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 8v3m0 2v.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span><span><strong>Scenarios</strong><small>Model conditions that could expose risk.</small></span></div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <section class="service-section">
+        <div class="service-shell glass-panel section-panel">
+            <div class="section-heading">
+                <span class="service-eyebrow">Evidence-led assessment</span>
+                <h2>Focus attention where it can make a difference.</h2>
+                <p>Bring together system context, monitoring insights and workload expectations to reveal risks while there is still time to respond.</p>
+            </div>
+            <div class="detail-grid">
+                <article class="detail-card"><span>01</span><h3>Map critical paths</h3><p>Understand the services and dependencies behind important user journeys.</p></article>
+                <article class="detail-card"><span>02</span><h3>Identify constraints</h3><p>Review available data and architecture to surface likely bottlenecks.</p></article>
+                <article class="detail-card"><span>03</span><h3>Explore workload risks</h3><p>Consider peak demand, growth, failure and recovery scenarios.</p></article>
+                <article class="detail-card"><span>04</span><h3>Prioritise mitigation</h3><p>Share findings with clear impact, evidence and recommended next steps.</p></article>
+            </div>
+        </div>
+    </section>
+    <section class="service-outcomes">
+        <div class="service-shell glass-panel outcome-grid">
+            <div class="outcome-copy"><span class="service-eyebrow">The result</span><h2>Fewer unknowns in critical systems.</h2><p>Early risk analysis helps teams direct engineering effort toward the issues most likely to affect availability, user experience or planned growth.</p></div>
+            <div class="outcome-list" aria-label="Risk analysis outcomes">
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Earlier issue visibility</span>
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Clearer capacity assumptions</span>
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Prioritised engineering actions</span>
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Reduced production uncertainty</span>
+            </div>
+        </div>
+    </section>
+    <section class="service-related">
+        <div class="service-shell"><h2 class="related-heading">Explore related services</h2><div class="related-links"><a href="performance.html">Performance overview</a><a href="performance-testing.html">Performance testing</a><a href="performance-engineering.html">Performance engineering</a><a href="automation-testing.html">Automation testing</a><a href="tool-evaluation.html">Tool evaluation</a></div></div>
+    </section>
+</main>
+<footer class="service-footer"><div class="service-shell service-footer-inner">
+    <a class="service-brand" href="index.html"><span class="service-brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><text x="20" y="27" text-anchor="middle" fill="currentColor" font-family="Space Grotesk, sans-serif" font-size="17" font-weight="700" letter-spacing="-1.5">KS</text></svg></span>kasitech</a>
+    <span class="service-footer-note">© 2026 Kasitech (AUS) Pty Ltd · Australia</span>
+    <div class="service-footer-links"><a href="apps.html">Apps</a><a href="custom-saas.html">Custom SaaS</a><a href="digital-products.html">Digital products</a></div>
+</div></footer>
 </body>
 </html>

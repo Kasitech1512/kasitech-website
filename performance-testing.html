@@ -1,101 +1,84 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Performance Testing | Kasitech (AUS) Pty Ltd</title>
-
-<meta name="description" content="Performance testing services including load testing, stress testing, endurance testing and scalability assessments.">
-
-<meta name="keywords" content="Performance Testing, Load Testing, Stress Testing, JMeter, LoadRunner">
-
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-<style>
-body {
-    margin: 0;
-    font-family: 'Poppins';
-}
-
-/* NAV */
-nav {
-    background: #0a192f;
-    padding: 10px 30px;
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    color: white;
-}
-
-nav a {
-    color: white;
-    margin-left: auto;
-    text-decoration: none;
-}
-
-/* CONTENT */
-.container {
-    padding: 80px 20px;
-    text-align: center;
-}
-</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Performance Testing | Kasitech</title>
+<meta name="description" content="Validate application speed, stability and scalability with realistic load, stress, endurance and capacity testing.">
+<meta name="theme-color" content="#9be8d4">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="performance-services.css">
 </head>
-
 <body>
-
-<!-- NAV -->
-<nav>
-
-<div class="logo">
-<svg width="50" height="50" viewBox="0 0 100 100">
-<path d="M10 60 Q30 30, 50 60 T90 60"
-stroke="#64ffda"
-stroke-width="3"
-fill="none"/>
-<text x="20" y="55" font-size="28" fill="white">KS</text>
-</svg>
-<span style="margin-left:10px;">Kasitech</span>
-</div>
-
-<a href="index.html">Home</a>
-
-</nav>
-
-<!-- PAGE CONTENT -->
-<div class="container">
-  <h1>Performance Testing</h1>
-
-  <p>
-    We provide comprehensive performance testing services to ensure your
-    applications perform reliably under real-world conditions and peak demand.
-  </p>
-
-  <h2>What We Offer</h2>
-  <ul>
-    <li>✔ Load Testing – Validate expected user traffic and system behaviour</li>
-    <li>✔ Stress Testing – Identify system limits and failure points</li>
-    <li>✔ Endurance Testing – Detect memory leaks and long-term stability issues</li>
-    <li>✔ Scalability Testing – Ensure systems scale efficiently with demand</li>
-  </ul>
-
-  <h2>Tools & Technologies</h2>
-  <p>LoadRunner, JMeter, Gatling, AWS Cloud, Dynatrace, Splunk</p>
-
-  <h2>Business Benefits</h2>
-  <p>
-    Our performance testing approach helps minimise production risks,
-    improve end-user experience, and ensure system readiness for business-critical events.
-  </p>
-</div>
-
-<footer style="background:#0a192f; color:white; text-align:center; padding:20px;">
-  <p>© 2022-2026 Kasitech (AUS) Pty Ltd</p>
-  <p>ACN: 661 777 297</p>
-  <p>Schofields, NSW, Australia</p>
-</footer>
-
+<header class="service-header">
+    <nav class="service-nav service-shell" aria-label="Main navigation">
+        <a class="service-brand" href="index.html" aria-label="Kasitech home"><span class="service-brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><text x="20" y="27" text-anchor="middle" fill="currentColor" font-family="Space Grotesk, sans-serif" font-size="17" font-weight="700" letter-spacing="-1.5">KS</text></svg></span>kasitech</a>
+        <div class="service-nav-links"><a href="index.html">Home</a><a href="performance.html">Performance services</a></div>
+        <a class="service-button" href="index.html?product=Performance%20engineering#contact">Let's talk</a>
+    </nav>
+</header>
+<main>
+    <section class="service-hero">
+        <div class="service-shell service-hero-grid">
+            <div class="service-hero-copy">
+                <span class="service-eyebrow">Performance testing · 01 of 05</span>
+                <h1>Know how your system behaves <span>under load.</span></h1>
+                <p>Understand the experience your application delivers as demand changes. We plan realistic tests, measure the results and help your team act on what the evidence shows.</p>
+                <div class="service-actions">
+                    <a class="service-button" href="index.html?product=Performance%20engineering#contact">Plan a performance test
+                        <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                    <a class="service-button service-button-secondary" href="performance.html">All performance services</a>
+                </div>
+            </div>
+            <aside class="glass-panel service-focus" aria-label="Performance testing focus">
+                <div class="service-focus-heading"><span>Test coverage</span><strong>01 / 05</strong></div>
+                <div class="focus-grid">
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="M3 15V9m5 6V5m5 10v-4m4 4V3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span><span><strong>Load</strong><small>Validate expected user traffic.</small></span></div>
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="M3 15h3l2-8 3 6 2-4h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Stress</strong><small>Understand system limits and failure modes.</small></span></div>
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="1.6"/><path d="M10 6v4l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span><span><strong>Endurance</strong><small>Check stability over sustained activity.</small></span></div>
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="M3 15V9m5 6V5m5 10V3m4 12V7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span><span><strong>Scalability</strong><small>See how capacity changes with demand.</small></span></div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <section class="service-section">
+        <div class="service-shell glass-panel section-panel">
+            <div class="section-heading">
+                <span class="service-eyebrow">A clear testing cycle</span>
+                <h2>Turn realistic workloads into useful answers.</h2>
+                <p>Tests are shaped around business-critical journeys and agreed service expectations, so results help teams make confident decisions.</p>
+            </div>
+            <div class="detail-grid">
+                <article class="detail-card"><span>01</span><h3>Model real usage</h3><p>Define representative user journeys, traffic profiles and test conditions.</p></article>
+                <article class="detail-card"><span>02</span><h3>Measure experience</h3><p>Assess response times, throughput, errors and system resource behaviour.</p></article>
+                <article class="detail-card"><span>03</span><h3>Find constraints</h3><p>Use application and infrastructure evidence to locate bottlenecks.</p></article>
+                <article class="detail-card"><span>04</span><h3>Validate readiness</h3><p>Retest improvements and share clear findings with delivery teams.</p></article>
+            </div>
+        </div>
+    </section>
+    <section class="service-outcomes">
+        <div class="service-shell glass-panel outcome-grid">
+            <div class="outcome-copy"><span class="service-eyebrow">The result</span><h2>Clearer confidence ahead of peak demand.</h2><p>Performance testing can reduce release uncertainty, reveal capacity risks early and give teams a practical basis for prioritising improvements.</p></div>
+            <div class="outcome-list" aria-label="Testing outcomes">
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Realistic workload coverage</span>
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Evidence-based bottleneck analysis</span>
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Capacity and stability insights</span>
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Actionable release guidance</span>
+            </div>
+        </div>
+    </section>
+    <section class="service-related">
+        <div class="service-shell"><h2 class="related-heading">Explore related services</h2><div class="related-links"><a href="performance.html">Performance overview</a><a href="performance-engineering.html">Performance engineering</a><a href="automation-testing.html">Automation testing</a><a href="risk-analysis.html">Risk analysis</a><a href="tool-evaluation.html">Tool evaluation</a></div></div>
+    </section>
+</main>
+<footer class="service-footer"><div class="service-shell service-footer-inner">
+    <a class="service-brand" href="index.html"><span class="service-brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><text x="20" y="27" text-anchor="middle" fill="currentColor" font-family="Space Grotesk, sans-serif" font-size="17" font-weight="700" letter-spacing="-1.5">KS</text></svg></span>kasitech</a>
+    <span class="service-footer-note">© 2026 Kasitech (AUS) Pty Ltd · Australia</span>
+    <div class="service-footer-links"><a href="apps.html">Apps</a><a href="custom-saas.html">Custom SaaS</a><a href="digital-products.html">Digital products</a></div>
+</div></footer>
 </body>
 </html>

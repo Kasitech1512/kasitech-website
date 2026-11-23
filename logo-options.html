@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kasitech | KS Logo Options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root { --ink: #132834; --paper: #9be8d4; --muted: #46616a; --green: #c9f36a; --line: rgba(255,255,255,.66); }
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: radial-gradient(ellipse at 9% 15%, rgba(84,226,189,.78), transparent 34%), radial-gradient(ellipse at 87% 14%, rgba(126,145,238,.72), transparent 35%), radial-gradient(ellipse at 49% 83%, rgba(94,210,204,.62), transparent 41%), linear-gradient(128deg,#9be8d4 0%,#a9e3e5 47%,#b5c3f1 100%); background-attachment: fixed; font-family: "DM Sans", sans-serif; }
+a { color: inherit; }
+.shell { width: min(100% - 40px, 1000px); margin: 0 auto; }
+header { padding: 22px 0; border-bottom: 1px solid rgba(255,255,255,.58); background: rgba(245,255,253,.48); backdrop-filter: blur(20px); }
+.back { color: #35535d; font-size: 13px; font-weight: 600; text-decoration: none; }
+main { padding: 74px 0 90px; }
+.eyebrow { color: #087c71; font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+h1 { max-width: 700px; margin: 15px 0 12px; font: 600 clamp(38px, 6vw, 58px)/1.02 "Space Grotesk", sans-serif; letter-spacing: -.065em; }
+.intro { max-width: 600px; margin: 0; color: var(--muted); font-size: 15px; line-height: 1.7; }
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 40px; }
+.card { padding: 24px; border: 1px solid rgba(255,255,255,.82); border-radius: 16px; background: rgba(255,255,255,.36); box-shadow: 0 16px 38px rgba(38,74,103,.08); backdrop-filter: blur(20px); }
+.card.selected { border-color: rgba(255,255,255,.98); box-shadow: 0 0 0 2px rgba(8,124,113,.16), 0 16px 38px rgba(38,74,103,.1); }
+.sample { min-height: 190px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.68); border-radius: 12px; background: rgba(255,255,255,.3); backdrop-filter: blur(16px); }
+.wordmark { display: flex; align-items: center; gap: 12px; font: 700 22px "Space Grotesk", sans-serif; letter-spacing: -.07em; }
+.mark { width: 70px; height: 70px; display: grid; place-items: center; }
+.mark svg { width: 100%; height: 100%; }
+.card h2 { margin: 20px 0 6px; font: 600 19px "Space Grotesk", sans-serif; letter-spacing: -.04em; }
+.card p { min-height: 42px; margin: 0; color: var(--muted); font-size: 12px; line-height: 1.65; }
+.meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 16px; }
+.tag { color: #46616a; font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.selected .tag { color: #087c71; }
+.palette { display: flex; gap: 5px; }
+.swatch { width: 13px; height: 13px; border: 1px solid rgba(0,0,0,.08); border-radius: 50%; }
+.pick { margin-top: 48px; padding: 24px; border: 1px solid rgba(255,255,255,.78); border-radius: 16px; color: var(--ink); background: rgba(255,255,255,.38); box-shadow: 0 16px 38px rgba(38,74,103,.08); backdrop-filter: blur(20px); font-size: 13px; line-height: 1.7; }
+.pick strong { color: #087c71; }
+@media (max-width: 650px) { .grid { grid-template-columns: 1fr; } main { padding-top: 52px; } .card p { min-height: 0; } }
+</style>
+</head>
+<body>
+<header><div class="shell"><a class="back" href="index.html">← Back to Kasitech</a></div></header>
+<main class="shell">
+    <span class="eyebrow">Kasitech identity exploration</span>
+    <h1>Four ways to make KS unmistakably yours.</h1>
+    <p class="intro">Each direction keeps the KS initials, but gives the mark a different personality. Compare them at full size and as a compact app icon.</p>
+    <div class="grid">
+        <article class="card selected">
+            <div class="sample">
+                <div class="wordmark">
+                    <span class="mark">
+                        <svg viewBox="0 0 70 70" role="img" aria-label="Option A: KS monogram in a rounded square">
+                            <rect x="3" y="3" width="64" height="64" rx="19" fill="#17241f"/>
+                            <text x="35" y="45" text-anchor="middle" fill="#c9f36a" font-family="Space Grotesk, sans-serif" font-size="27" font-weight="700" letter-spacing="-2.5">KS</text>
+                        </svg>
+                    </span>kasitech
+                </div>
+            </div>
+            <h2>A — Confident monogram</h2>
+            <p>Clear KS initials in a friendly, app-ready tile. Balanced, modern and easy to recognize at small sizes.</p>
+            <div class="meta"><span class="tag">Selected · Versatile</span><span class="palette"><i class="swatch" style="background:#17241f"></i><i class="swatch" style="background:#c9f36a"></i></span></div>
+        </article>
+        <article class="card">
+            <div class="sample">
+                <div class="wordmark">
+                    <span class="mark">
+                        <svg viewBox="0 0 70 70" role="img" aria-label="Option B: interlocking KS monogram">
+                            <path d="M14 14v42M14 35l23-21M14 35l23 21" fill="none" stroke="#17241f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M58 19c-4-7-25-7-25 4 0 14 25 7 25 22 0 12-19 15-29 5" fill="none" stroke="#6b984c" stroke-width="8" stroke-linecap="round"/>
+                        </svg>
+                    </span>kasitech
+                </div>
+            </div>
+            <h2>B — Connected initials</h2>
+            <p>A custom-drawn K flows into an S: a more distinctive, energetic mark that suggests ideas and engineering working together.</p>
+            <div class="meta"><span class="tag">Expressive · Custom</span><span class="palette"><i class="swatch" style="background:#17241f"></i><i class="swatch" style="background:#6b984c"></i></span></div>
+        </article>
+        <article class="card">
+            <div class="sample">
+                <div class="wordmark">
+                    <span class="mark">
+                        <svg viewBox="0 0 70 70" role="img" aria-label="Option C: KS initials in a circular badge">
+                            <circle cx="35" cy="35" r="31" fill="#e5eedc"/>
+                            <circle cx="35" cy="35" r="25" fill="none" stroke="#799b5e" stroke-width="1.5"/>
+                            <text x="35" y="42" text-anchor="middle" fill="#253b2d" font-family="Space Grotesk, sans-serif" font-size="23" font-weight="700" letter-spacing="-2">KS</text>
+                        </svg>
+                    </span>kasitech
+                </div>
+            </div>
+            <h2>C — Considered badge</h2>
+            <p>A softer, more established feel with a circular seal. Works well when the brand needs to feel personal and reassuring.</p>
+            <div class="meta"><span class="tag">Warm · Established</span><span class="palette"><i class="swatch" style="background:#253b2d"></i><i class="swatch" style="background:#e5eedc"></i></span></div>
+        </article>
+        <article class="card">
+            <div class="sample">
+                <div class="wordmark">
+                    <span class="mark">
+                        <svg viewBox="0 0 70 70" role="img" aria-label="Option D: geometric KS monogram">
+                            <path d="M8 13h24L15 34h17L8 57h24" fill="none" stroke="#17241f" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter"/>
+                            <path d="M62 15c-7-5-25-4-25 6 0 13 25 8 25 21 0 11-16 17-28 8" fill="none" stroke="#86ad5c" stroke-width="7" stroke-linecap="square"/>
+                        </svg>
+                    </span>kasitech
+                </div>
+            </div>
+            <h2>D — Geometric signal</h2>
+            <p>Sharper, more technical letterforms give KS a bold studio identity with a subtle nod to systems and forward motion.</p>
+            <div class="meta"><span class="tag">Technical · Distinct</span><span class="palette"><i class="swatch" style="background:#17241f"></i><i class="swatch" style="background:#86ad5c"></i></span></div>
+        </article>
+    </div>
+    <div class="pick"><strong>Option A selected.</strong> The confident KS monogram is now the Kasitech logo used on the landing page.</div>
+</main>
+</body>
+</html>

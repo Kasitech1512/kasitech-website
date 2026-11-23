@@ -1,102 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Performance Engineering | Kasitech (AUS) Pty Ltd</title>
-
-<meta name="description" content="Performance engineering services focused on scalability, optimisation, observability and system resilience.">
-
-<meta name="keywords" content="Performance Engineering, Scalability, Observability, Dynatrace, AWS">
-
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-<style>
-body {
-    margin: 0;
-    font-family: 'Poppins';
-}
-
-/* NAV */
-nav {
-    background: #0a192f;
-    padding: 10px 30px;
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    color: white;
-}
-
-nav a {
-    color: white;
-    margin-left: auto;
-    text-decoration: none;
-}
-
-/* CONTENT */
-.container {
-    padding: 80px 20px;
-    text-align: center;
-}
-</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Performance Engineering | Kasitech</title>
+<meta name="description" content="Build performance into your software lifecycle with architecture reviews, optimisation, scalability planning and observability.">
+<meta name="theme-color" content="#9be8d4">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="performance-services.css">
 </head>
-
 <body>
-
-<!-- NAV -->
-<nav>
-
-<div class="logo">
-<svg width="50" height="50" viewBox="0 0 100 100">
-<path d="M10 60 Q30 30, 50 60 T90 60"
-stroke="#64ffda"
-stroke-width="3"
-fill="none"/>
-<text x="20" y="55" font-size="28" fill="white">KS</text>
-</svg>
-<span style="margin-left:10px;">Kasitech</span>
-</div>
-
-<a href="index.html">Home</a>
-
-</nav>
-
-<!-- PAGE CONTENT -->
-<div class="container">
-  <h1>Performance Engineering</h1>
-
-  <p>
-    Our performance engineering services focus on optimising system architecture,
-    improving scalability, and ensuring applications perform efficiently at every stage
-    of the development lifecycle.
-  </p>
-
-  <h2>What We Offer</h2>
-  <ul>
-    <li>✔ Performance optimisation and tuning</li>
-    <li>✔ System architecture and scalability assessment</li>
-    <li>✔ Bottleneck identification and root-cause analysis</li>
-    <li>✔ Observability and monitoring strategy</li>
-  </ul>
-
-  <h2>Technologies</h2>
-  <p>AWS, Microservices, Kubernetes, Dynatrace, Splunk</p>
-
-  <h2>Business Benefits</h2>
-  <p>
-    We help organisations build resilient, high-performing systems by identifying
-    issues early, reducing downtime, and improving overall application efficiency.
-  </p>
-</div>
-
-<footer style="background:#0a192f; color:white; text-align:center; padding:20px;">
-  <p>© 2022-2026 Kasitech (AUS) Pty Ltd</p>
-  <p>ACN: 661 777 297</p>
-  <p>Schofields, NSW, Australia</p>
-</footer>
-
+<header class="service-header">
+    <nav class="service-nav service-shell" aria-label="Main navigation">
+        <a class="service-brand" href="index.html" aria-label="Kasitech home"><span class="service-brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><text x="20" y="27" text-anchor="middle" fill="currentColor" font-family="Space Grotesk, sans-serif" font-size="17" font-weight="700" letter-spacing="-1.5">KS</text></svg></span>kasitech</a>
+        <div class="service-nav-links">
+            <a href="index.html">Home</a>
+            <a href="performance.html">Performance services</a>
+        </div>
+        <a class="service-button" href="index.html?product=Performance%20engineering#contact">Let's talk</a>
+    </nav>
+</header>
+<main>
+    <section class="service-hero">
+        <div class="service-shell service-hero-grid">
+            <div class="service-hero-copy">
+                <span class="service-eyebrow">Performance engineering · 02 of 05</span>
+                <h1>Build performance into <span>the system.</span></h1>
+                <p>Make speed, scalability and resilience part of everyday engineering. We help teams find the constraints that matter and turn evidence into lasting improvements.</p>
+                <div class="service-actions">
+                    <a class="service-button" href="index.html?product=Performance%20engineering#contact">Discuss your requirements
+                        <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                    <a class="service-button service-button-secondary" href="performance.html">All performance services</a>
+                </div>
+            </div>
+            <aside class="glass-panel service-focus" aria-label="Performance engineering focus">
+                <div class="service-focus-heading"><span>Engineering focus</span><strong>02 / 05</strong></div>
+                <div class="focus-grid">
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="M4 15V8m6 7V4m6 11v-5M2 17h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span><span><strong>Architecture</strong><small>Design for scale and resilience.</small></span></div>
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="m3 13 4-4 3 2 6-7m0 0h-4m4 0v4M3 17h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Optimisation</strong><small>Resolve bottlenecks at their source.</small></span></div>
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="M3 15V9m5 6V5m5 10v-4m4 4V3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span><span><strong>Observability</strong><small>Make system behaviour visible.</small></span></div>
+                    <div class="focus-item"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="M4 4h12v12H4zM7 8h6M7 12h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Lifecycle</strong><small>Improve continuously, not just at release.</small></span></div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <section class="service-section">
+        <div class="service-shell glass-panel section-panel">
+            <div class="section-heading">
+                <span class="service-eyebrow">A practical discipline</span>
+                <h2>Improve the causes, not just the symptoms.</h2>
+                <p>We connect application behaviour to architecture and delivery decisions, helping your team make targeted changes with measurable results.</p>
+            </div>
+            <div class="detail-grid">
+                <article class="detail-card"><span>01</span><h3>Assess the architecture</h3><p>Review key paths, service boundaries and dependencies against expected demand.</p></article>
+                <article class="detail-card"><span>02</span><h3>Locate constraints</h3><p>Combine profiling, monitoring and test evidence to find the source of slowdowns.</p></article>
+                <article class="detail-card"><span>03</span><h3>Optimise with evidence</h3><p>Prioritise the changes most likely to improve throughput, latency or stability.</p></article>
+                <article class="detail-card"><span>04</span><h3>Keep performance visible</h3><p>Establish useful indicators so teams can validate changes and catch regressions.</p></article>
+            </div>
+        </div>
+    </section>
+    <section class="service-outcomes">
+        <div class="service-shell glass-panel outcome-grid">
+            <div class="outcome-copy"><span class="service-eyebrow">The result</span><h2>More predictable software as demand grows.</h2><p>Performance engineering helps teams make informed trade-offs, improve resilience and reduce late-stage surprises across the development lifecycle.</p></div>
+            <div class="outcome-list" aria-label="Benefits">
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Scalable system design</span>
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Faster root-cause analysis</span>
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Actionable observability</span>
+                <span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Continuous improvement</span>
+            </div>
+        </div>
+    </section>
+    <section class="service-related">
+        <div class="service-shell"><h2 class="related-heading">Explore related services</h2><div class="related-links"><a href="performance.html">Performance overview</a><a href="performance-testing.html">Performance testing</a><a href="automation-testing.html">Automation testing</a><a href="risk-analysis.html">Risk analysis</a><a href="tool-evaluation.html">Tool evaluation</a></div></div>
+    </section>
+</main>
+<footer class="service-footer"><div class="service-shell service-footer-inner">
+    <a class="service-brand" href="index.html"><span class="service-brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><text x="20" y="27" text-anchor="middle" fill="currentColor" font-family="Space Grotesk, sans-serif" font-size="17" font-weight="700" letter-spacing="-1.5">KS</text></svg></span>kasitech</a>
+    <span class="service-footer-note">© 2026 Kasitech (AUS) Pty Ltd · Australia</span>
+    <div class="service-footer-links"><a href="apps.html">Apps</a><a href="custom-saas.html">Custom SaaS</a><a href="digital-products.html">Digital products</a></div>
+</div></footer>
 </body>
 </html>
